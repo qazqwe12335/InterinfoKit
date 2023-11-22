@@ -8,6 +8,8 @@
 import Foundation
 
 public class Show {
+    public init() {}
+    
     public func showToast() {
         print("showToast")
     }
