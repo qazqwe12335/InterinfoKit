@@ -63,22 +63,22 @@ public class Styled {
     ///  元件顏色
     public enum Color {
         ///  字體顏色
-        static let textDark = UIColor(hex: 0x000000)
-        static let textNormal = UIColor(hex: 0x959595)
-        static let textLight = UIColor(hex: 0xC5C5C5)
-        static let danger = UIColor(hex: 0xFF0000)
+        public static let textDark = UIColor(hex: 0x000000)
+        public static let textNormal = UIColor(hex: 0x959595)
+        public static let textLight = UIColor(hex: 0xC5C5C5)
+        public static let danger = UIColor(hex: 0xFF0000)
         ///
-        static let subTitle = UIColor(hex: 0x808080)
-        static let dadaReplyText = UIColor(hex: 0x666666)
-        static let midGrey = UIColor(hex: 0x666666)
+        public static let subTitle = UIColor(hex: 0x808080)
+        public static let dadaReplyText = UIColor(hex: 0x666666)
+        public static let midGrey = UIColor(hex: 0x666666)
         ///  分隔線
-        static let divider = UIColor(hex: 0xE3E3E3)
+        public static let divider = UIColor(hex: 0xE3E3E3)
         ///  背景底
-        static let appBackGround = UIColor(hex: 0xF7F7F7)
+        public static let appBackGround = UIColor(hex: 0xF7F7F7)
         ///  按鈕鎖定顏色
-        static let buttonDisable = UIColor(hex: 0xC5C5C5)
+        public static let buttonDisable = UIColor(hex: 0xC5C5C5)
         ///  警示顏色
-        static let emergency = UIColor(hex: 0xFF0000)
+        public static let emergency = UIColor(hex: 0xFF0000)
         
 //        static var main: UIColor {
 //            get {
