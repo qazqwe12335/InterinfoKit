@@ -8,7 +8,11 @@
 import Foundation
 import UIKit
 
-open class Message {
+final public class Message {
+    
+    public static let shared = Message()
+    
+    public init() {}
     
     public func show(title: String, message: String, confirm: (()->Void)? = nil) -> UIAlertController {
         let controller = UIAlertController(title: title, message: message, preferredStyle: .alert)
